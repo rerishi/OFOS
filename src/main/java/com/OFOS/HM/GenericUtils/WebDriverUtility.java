@@ -193,7 +193,7 @@ public class WebDriverUtility {
 	public void rightClickOnWebElement(WebDriver driver, WebElement element)
 	{
 		Actions act=new Actions(driver);
-		act.contextClick(element);
+		act.contextClick(element).perform();;
 	}
 	
 	/**
